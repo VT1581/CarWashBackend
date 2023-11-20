@@ -1,0 +1,137 @@
+package com.carwash.order.model;
+
+import java.util.Date;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PositiveOrZero;
+
+
+
+@Document(collection = "orders")
+public class OrderDetails {
+	@Id
+	private String orderId;
+	@NotBlank(message = "User Name is required")
+	private String userName;
+	@NotBlank(message = "Wash Pack Name is required")
+	private String washpackName;
+	//@NotBlank(message = "Payment Status is required")
+	private String paymentStatus;
+	@NotBlank(message = "Email Address is required")
+    @Email(message = "Invalid email format")
+	private String emailAddress;
+	//@NotNull(message = "Date is required")
+	private Date date;
+	@NotBlank(message = "Car Model is required")
+	private String carModel;
+	@NotNull(message = "Amount is required")
+    @PositiveOrZero(message = "Amount must be a positive or zero value")
+	private double amount;
+	@NotBlank(message = "Address is required")
+	private String address;
+	
+	public OrderDetails() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public OrderDetails(String orderId, String userName, String washpackName, String paymentStatus, String emailAddress,
+			Date date, String carModel, double amount, String address) {
+		super();
+		this.orderId = orderId;
+		this.userName = userName;
+		this.washpackName = washpackName;
+		this.paymentStatus = paymentStatus;
+		this.emailAddress = emailAddress;
+		this.date = date;
+		this.carModel = carModel;
+		this.amount = amount;
+		this.address = address;
+	}
+
+	public String getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getWashpackName() {
+		return washpackName;
+	}
+
+	public void setWashpackName(String washpackName) {
+		this.washpackName = washpackName;
+	}
+
+	public String getPaymentStatus() {
+		return paymentStatus;
+	}
+
+	public void setPaymentStatus(String paymentStatus) {
+		this.paymentStatus = paymentStatus;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public String getCarModel() {
+		return carModel;
+	}
+
+	public void setCarModel(String carModel) {
+		this.carModel = carModel;
+	}
+
+	public double getAmount() {
+		return amount;
+	}
+
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	
+	
+	
+
+
+	
+	
+	
+}

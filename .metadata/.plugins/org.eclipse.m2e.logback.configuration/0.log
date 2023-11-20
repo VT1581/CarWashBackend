@@ -1,0 +1,97 @@
+2023-10-31 10:32:26,209 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-31 10:32:34,282 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:34,328 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:34,340 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\CarWasherService\src\test\resources
+2023-10-31 10:32:37,043 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:37,049 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:37,057 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\src\test\resources
+2023-10-31 10:32:38,440 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:38,446 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:38,453 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\EurekaServer\src\test\resources
+2023-10-31 10:32:39,333 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:39,337 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:39,341 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Gate-Way-Service\src\test\resources
+2023-10-31 10:32:40,245 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:40,248 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:40,253 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Paymentnew\src\test\resources
+2023-10-31 10:32:41,145 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:41,149 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:41,153 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\PromocodeService\src\test\resources
+2023-10-31 10:32:43,543 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-31 10:32:43,554 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-31 10:32:43,571 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Washpack_service\src\test\resources
+2023-10-31 10:32:47,253 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 10:32:47,254 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-31 10:32:47,255 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-31 10:32:47,293 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-31 10:32:47,308 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-31 10:32:47,308 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-31 10:32:47,309 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\userAuthentication\src\test\resources
+2023-11-03 12:10:36,974 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-03 12:10:37,343 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-03 12:10:37,373 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\src\test\resources
+2023-11-03 12:11:19,713 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-03 12:11:50,644 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-03 12:11:50,690 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-03 12:11:50,704 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\src\test\resources
+2023-11-03 12:13:36,814 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-03 12:13:36,836 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-03 12:13:36,850 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\src\test\resources
+2023-11-03 12:13:48,323 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-03 12:13:48,364 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-03 12:13:48,380 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\src\test\resources
+2023-11-07 12:07:40,743 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-16 10:04:40,165 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-16 10:04:44,671 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2023-11-20 09:16:03,350 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-20 09:16:05,276 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.carwash.order:Carwash-order-service:0.0.1-SNAPSHOT @ C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\pom.xml.
+2023-11-20 09:16:08,423 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Carwash-order-service/src/main/java
+2023-11-20 09:16:08,425 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Carwash-order-service/src/main/resources
+2023-11-20 09:16:08,426 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Carwash-order-service/src/main/resources
+2023-11-20 09:16:08,428 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Carwash-order-service/src/test/java
+2023-11-20 09:16:11,429 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2023-11-20 09:16:15,866 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:15,911 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:15,925 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\CarWasherService\src\test\resources
+2023-11-20 09:16:17,449 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:17,459 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:17,471 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Carwash-order-service\src\test\resources
+2023-11-20 09:16:20,521 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:20,528 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:20,540 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\EurekaServer\src\test\resources
+2023-11-20 09:16:22,321 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:22,331 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:22,344 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Gate-Way-Service\src\test\resources
+2023-11-20 09:16:24,289 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:24,296 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:24,304 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Paymentnew\src\test\resources
+2023-11-20 09:16:26,814 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:26,822 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:26,842 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\PromocodeService\src\test\resources
+2023-11-20 09:16:29,771 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:16:29,783 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:16:29,800 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\Washpack_service\src\test\resources
+2023-11-20 09:16:33,036 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-20 09:16:33,036 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-11-20 09:16:33,038 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-11-20 09:16:33,061 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-11-20 09:16:33,072 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-20 09:16:33,072 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-11-20 09:16:33,072 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\userAuthentication\src\test\resources
+2023-11-20 09:19:20,512 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.springcloud:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\ServiceRegistry\pom.xml.
+2023-11-20 09:19:23,771 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:19:23,779 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:19:23,796 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\ServiceRegistry\src\test\resources
+2023-11-20 09:19:27,190 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:19:27,199 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:19:27,214 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\ServiceRegistry\src\test\resources
+2023-11-20 09:19:29,853 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-20 09:19:31,026 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cg.springcloud:EurekaServer:0.0.1-SNAPSHOT @ C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\ServiceRegistry\pom.xml.
+2023-11-20 09:19:33,954 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ServiceRegistry/src/main/java
+2023-11-20 09:19:33,956 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ServiceRegistry/src/main/resources
+2023-11-20 09:19:33,957 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ServiceRegistry/src/main/resources
+2023-11-20 09:19:33,958 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ServiceRegistry/src/test/java
+2023-11-20 09:19:36,252 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2023-11-20 09:19:36,718 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 09:19:36,726 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 09:19:36,741 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\VTPAVITH\OneDrive - Capgemini\Desktop\NA_CASESTUDY_FINAL\FinalBackendupdated\ServiceRegistry\src\test\resources

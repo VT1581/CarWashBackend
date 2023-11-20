@@ -1,0 +1,66 @@
+package com.carwash.order.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.carwash.order.Exception.OrderNotFoundException;
+import com.carwash.order.model.OrderDetails;
+import com.carwash.order.service.OrderService;
+
+
+@RestController
+@RequestMapping("/orders")
+@CrossOrigin("http://localhost:4200")
+public class Ordercontroller {
+	
+	@Autowired
+	OrderService orderService;
+	
+	
+	@PostMapping("/addOrder")
+	public OrderDetails addOrder(@RequestBody OrderDetails orderDetails) {
+		return orderService.saveOrder(orderDetails);
+	}
+
+	
+	@GetMapping("/allorders")
+	public List<OrderDetails> getAllorders(){
+		return orderService.getAllOrderDetails();
+	}
+
+	
+	@PutMapping("/updatestatus/{orderId}/{status}")
+	public OrderDetails updateStatus(@PathVariable String orderId,@PathVariable String status) throws OrderNotFoundException {
+		OrderDetails order=orderService.getOrderById(orderId);
+		return orderService.saveOrder(order);
+	}
+	
+	@PutMapping("/updateOrder")
+	public OrderDetails updateOrder(@RequestBody OrderDetails orderDetails) {
+		return orderService.updateOrder(orderDetails); 
+	}
+	
+	@DeleteMapping("/deleteOrder/{orderId}")
+	public boolean delateOrder(@PathVariable String orderId) throws OrderNotFoundException {
+		return orderService.delateById(orderId);
+	}
+
+	
+//	Method to get washpack by id
+	@GetMapping("{orderId}")
+	public ResponseEntity<OrderDetails> getCarById(@PathVariable("packId") String packId) {
+		return new ResponseEntity<OrderDetails>(orderService.findOrdersById(packId),HttpStatus.OK);
+	}
+}

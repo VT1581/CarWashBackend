@@ -1,0 +1,122 @@
+package com.carwash.order.model;
+
+import java.util.Date;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+
+@Document(collection = "orders")
+public class OrderDetails {
+	@Id
+	private String orderId;
+	private String userName;
+	private String washpackName;
+	private String paymentStatus;
+	private String emailAddress;
+	private Date date;
+	private String carModel;
+	private double amount;
+	private String address;
+	
+	public OrderDetails() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public OrderDetails(String orderId, String userName, String washpackName, String paymentStatus, String emailAddress,
+			Date date, String carModel, double amount, String address) {
+		super();
+		this.orderId = orderId;
+		this.userName = userName;
+		this.washpackName = washpackName;
+		this.paymentStatus = paymentStatus;
+		this.emailAddress = emailAddress;
+		this.date = date;
+		this.carModel = carModel;
+		this.amount = amount;
+		this.address = address;
+	}
+
+	public String getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getWashpackName() {
+		return washpackName;
+	}
+
+	public void setWashpackName(String washpackName) {
+		this.washpackName = washpackName;
+	}
+
+	public String getPaymentStatus() {
+		return paymentStatus;
+	}
+
+	public void setPaymentStatus(String paymentStatus) {
+		this.paymentStatus = paymentStatus;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public String getCarModel() {
+		return carModel;
+	}
+
+	public void setCarModel(String carModel) {
+		this.carModel = carModel;
+	}
+
+	public double getAmount() {
+		return amount;
+	}
+
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	
+	
+	
+
+
+	
+	
+	
+}
